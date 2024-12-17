@@ -2,9 +2,9 @@ document.addEventListener('DOMContentLoaded', function() {
     const chatbox = document.getElementsByClassName('chat-box');
     // const toggleButton = document.getElementById('chatbot-toggle');
 
-    toggleButton.addEventListener('click', function() {
+    // toggleButton.addEventListener('click', function() {
         chatbox.style.display = chatbox.style.display === 'block' ? 'none' : 'block';
-    });
+    // });
 
     // sendButton.addEventListener('click', function() {
     //     const message = userMessageInput.value;
