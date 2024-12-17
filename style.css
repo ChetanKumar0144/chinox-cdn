@@ -1,7 +1,27 @@
-.c-blue{
-    color: blue;
+.chat-box {
+    position: fixed; /* fixed so it stays in the same place even when scrolling */
+    border-radius: 3%;
+    height: 50%;
+    width: 40%;
+    bottom: 10px;
+    right: 10px;
+    box-shadow: 0px 0px 10px 0px black;
+}
+.nav{
+    padding: 0.2px;
+    color: black;
+    border-radius: 8%;
+    background-color: antiquewhite;
 }
 
-.c-bold{
-    font-weight: bold;
+.nav .heading{
+    margin-left: 10%;
+}
+
+.chat-box .body{
+    height: 75%;
+    padding: 1px;
+    margin: 6px;
+    border-radius: 2%;
+    box-shadow: 0px 0px 10px 0px aliceblue;
 }
