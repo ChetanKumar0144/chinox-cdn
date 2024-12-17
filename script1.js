@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    const chatbox = document.getElementByClassName('chat-box');
+    const chatbox = document.getElementsByClassName('chat-box');
     // const toggleButton = document.getElementById('chatbot-toggle');
 
     toggleButton.addEventListener('click', function() {
